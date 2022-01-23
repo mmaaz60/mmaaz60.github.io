@@ -1,17 +1,17 @@
 # main links links
 main:
 
-  - title: "Projects"
-    url: /projects/
+  - title: "Research"
+    url: /research/
 
-#  - title: "Publications"
-#    url: /publications/
+  - title: "Others"
+    url: /others/
 
-  - title: "Awards"
-    url: /awards/
+#  - title: "Awards"
+#    url: /awards/
 
-  - title: "Talks"
-    url: /talks/
+#  - title: "Talks"
+#    url: /talks/
 
 #  - title: "Teaching"
 #    url: /teaching/
@@ -19,8 +19,8 @@ main:
 #  - title: "Blog"
 #    url: /year-archive/
     
-  - title: "Timeline"
-    url: /timeline/
+#  - title: "Timeline"
+#    url: /timeline/
 
 #  - title: "Guide"
 #    url: /markdown/

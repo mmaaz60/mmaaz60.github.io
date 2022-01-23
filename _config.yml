@@ -8,13 +8,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kanchana Ranasinghe"
+title                    : "Muhammad Maaz"
 title_separator          : "-"
-name                     : &name "Kanchana Ranasinghe"
-description              : &description " I love mathematics, programming, poetry, & dancing."
-url                      : https://kahnchana.github.io
+name                     : &name "Muhammad Maaz"
+description              : &description " "
+url                      : https://mmaaz60.github.io # Change it to mmaaz60.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kahnchana.github.io"
+repository               : "mmaaz60.github.io"
 teaser                   :  "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -58,9 +58,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
-  username               : kahnchana
+  username               :
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -81,16 +81,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kanchana Ranasinghe"
+  name             : "Muhammad Maaz"
   avatar           : "profile.png"
-  bio              : "Computer Science Enthusiast"
-  location         : "Stony Brook, NY, USA"
+  bio              : "Engineer, Researcher"
+  location         : "MBZUAI, Abu Dhabi, UAE"
   employer         :
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=K2WBZTwAAAAJ"
-  semanticscholar  : "https://www.semanticscholar.org/author/Kanchana-Ranasinghe/48430646"
-  email            : "kranasinghe@cs.stonybrook.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=vTy9Te8AAAAJ&hl"
+  semanticscholar  :
+  email            : "muhammad.maaz@mbzuai.ac.ae"
+  researchgate     : "https://www.researchgate.net/profile/Muhammad-Maaz-6"
   uri              :
   bitbucket        :
   codepen          :
@@ -98,14 +98,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kahnchana"
+  github           : "mmaaz60"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "kahnchana"
-  orcid            : "https://orcid.org/0000-0003-2374-7804"
+  linkedin         : "mmaaz60"
+  orcid            : "https://orcid.org/0000-0001-5311-3613"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -186,6 +186,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -238,6 +241,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _others
+  - scope:
+      path: ""
+      type: others
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""
@@ -257,7 +269,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Dubai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
