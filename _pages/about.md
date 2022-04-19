@@ -19,4 +19,4 @@ Have a look at my resume [here](https://mmaaz60.github.io/files/MuhammadMaaz.pdf
 
 
 <h2 style="margin-top: 40px;"> Recent </h2>
-* November 2021: [Multi-modal Transformers Excel at Class-agnostic Object Detection](https://arxiv.org/abs/2111.11430) (under-review).
+* Mar 2022: [Multi-modal Transformers Excel at Class-agnostic Object Detection](https://arxiv.org/abs/2111.11430) (under-review).
