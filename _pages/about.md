@@ -11,7 +11,9 @@ redirect_from:
 * M.Sc. Computer Vision student at [MBZUAI](https://mbzuai.ac.ae), Abu Dhabi, UAE.
 * B.Sc. Electrical Engineering from [University of Engineering and Technology, Lahore](https://www.uet.edu.pk/). 
 Graduated in 2018 with honors.
-* Working on Multi-modal understanding from vision and text to improve common-sense reasoning of machines.
+* Working on 
+  * Developing light-weight general purpose efficient neural networks for mobile devices.
+  * Multi-modal understanding from vision and text to improve common-sense reasoning of machines.
 * Industry experience of working on design, development and deployment of Deep Learning driven Computer Vision products. 
 * Enjoy travelling, cricket and table tennis. 
 
