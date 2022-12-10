@@ -155,16 +155,18 @@ background-color: #ffffd0;
           <name>Muhammad Maaz</name>    <!-- The name -->
         </p>
         <p>
-          I am a first year Ph.D. Computer Vision student at <a href="https://mbzuai.ac.ae/">MBZUAI</a> working under the
-          supervision of <a href="https://scholar.google.com/citations?user=M59O9lkAAAAJ&hl=en">Dr. Salman
-        </a> and <a href="https://scholar.google.com/citations?user=zvaeYnUAAAAJ&hl=en">Dr. Fahad</a>.
+          I am an M.Sc. Computer Vision graduate from <a href="https://mbzuai.ac.ae/">MBZUAI</a>, worked under the
+          supervision of <a href="https://scholar.google.com/citations?user=M59O9lkAAAAJ&hl=en">Dr. Salman Khan
+        </a> and <a href="https://scholar.google.com/citations?user=zvaeYnUAAAAJ&hl=en">Dr. Fahad Khan</a>.
         </p>
         <p>
-          My research is focused on developing multi-modal understanding from vision and text to improve common-sense reasoning of machines and its applications in open-vocabulary and open-world object detection. I am also exploring efficient neural networks for edge-computing devices (i.e. Jetson Nano).
+          My interests are focused on developing multi-modal understanding from vision and text to improve common-sense reasoning of machines and its applications in open-vocabulary and open-world object detection.
+          I am also exploring efficient neural networks design for edge-computing devices (i.e. Jetson Nano).
         </p>
         <p>
-          I received my B.Sc. degreen in Electrical Enginerring from <a href="https://www.uet.edu.pk/">UET Lahore</a> with honors in 2018. After my graduation I joined <a href="https://www.confiz.com/">Confiz Limited</a> as Computer Vision engineer where I worked on design and deployment of deep-learning driven computer vision solution for retail industry in Pakistan.
-          In 2020, I joined to <a href="https://mbzuai.ac.ae/">MBZUAI</a> for pursuing my M.Sc. degree in Computer Vision. In 2022, I started my Ph.D. from MBZUAI.      </p>
+          I received my B.Sc. degreen in Electrical Enginerring from <a href="https://www.uet.edu.pk/">UET Lahore</a> with honors in 2018.
+          After my graduation I joined <a href="https://www.confiz.com/">Confiz Limited</a> as Computer Vision engineer where I worked on design and deployment of deep-learning driven computer vision solution for retail industry.
+          In 2022, I graduated from <a href="https://mbzuai.ac.ae/">MBZUAI</a> with an M.Sc. degree in Computer Vision.  </p>
         <p align=center>
           <a href="mailto:muhammad.maaz@mbzuai.ac.ae">Email</a> &nbsp/&nbsp
           <a href="pdf/MuhammadMaaz.pdf">CV</a> &nbsp/&nbsp
@@ -322,6 +324,94 @@ background-color: #ffffd0;
           channel dimensions to implicitly increase the receptive field and encode multi-scale features. Our extensive
           experiments on classification, detection and segmentation tasks, reveal the merits of the proposed approach,
           outperforming state-of-the-art methods with comparatively lower compute requirements.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='img/unetr_pp.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function bhnerf_start() {
+            document.getElementById('bhnerf_image').style.opacity = "1";
+          }
+
+          function bhnerf_stop() {
+            document.getElementById('bhnerf_image').style.opacity = "0";
+          }
+          bhnerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2212.04497/">
+          <papertitle>UNETR++: Delving into Efficient and Accurate 3D Medical Image Segmentation</papertitle>
+        </a>
+        <br>
+        <a href="https://scholar.google.com/citations?hl=en&user=eEz4Wu4AAAAJ/">Abdelrahman Shaker</a>,
+        <strong>Muhammad Maaz</strong>,
+        <a href="https://scholar.google.com/citations?user=yhDdEuEAAAAJ&hl=en&authuser=1&oi=sra/">Hanoona Rasheed</a>,
+        <a href="https://salman-h-khan.github.io/">Salman Khan</a>,
+        <a href="https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en/">Ming-Hsuan Yang</a>
+        <a href="https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en/">Fahad Shahbaz Khan</a>,
+        <br>
+  <em>Under Review</em>, 2022
+        <br>
+        <a href="https://amshaker.github.io/unetr_plus_plus/">project page</a>
+  /
+        <a href="https://arxiv.org/abs/2212.04497/">arXiv</a>
+        <p></p>
+        <p>In this work, we propose a 3D medical image segmentation approach, named UNETR++, that offers both
+            high-quality segmentation masks as well as efficiency in terms of parameters and compute cost. The core
+            of our design is the introduction of a novel efficient paired attention (EPA) block that efficiently learns
+            spatial and channel-wise discriminative features using a pair of inter-dependent branches based on spatial and
+            channel attention. Our spatial attention formulation is efficient having linear complexity with respect to the
+            input sequence length. To enable communication between spatial and channel-focused branches, we share the
+            weights of query and key mapping functions that provide a complimentary benefit (paired attention), while
+            also reducing the overall network parameters.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="bhnerf_stop()" onmouseover="bhnerf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='img/vifi_clip.png' width="160">
+        </div>
+        <script type="text/javascript">
+          function bhnerf_start() {
+            document.getElementById('bhnerf_image').style.opacity = "1";
+          }
+
+          function bhnerf_stop() {
+            document.getElementById('bhnerf_image').style.opacity = "0";
+          }
+          bhnerf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2212.03640/">
+          <papertitle>Fine-tuned CLIP Models are Efficient Video Learners</papertitle>
+        </a>
+        <br>
+        <a href="https://scholar.google.com/citations?user=yhDdEuEAAAAJ&hl=en&authuser=1&oi=sra/">Hanoona Rasheed</a>,
+        <a href="https://scholar.google.com/citations?user=M6fFL4gAAAAJ&hl=en&authuser=1">Muhammad Uzair Khattak</a>,
+        <strong>Muhammad Maaz</strong>,
+        <a href="https://salman-h-khan.github.io/">Salman Khan</a>,
+        <a href="https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en/">Fahad Shahbaz Khan</a>,
+        <br>
+  <em>Under Review</em>, 2022
+        <br>
+        <a href="https://muzairkhattak.github.io/ViFi-CLIP">project page</a>
+  /
+        <a href="https://arxiv.org/abs/2212.03640/">arXiv</a>
+        <p></p>
+        <p>In this work, we show that a simple Video Fine-tuned CLIP (ViFi-CLIP) baseline is generally sufficient
+          to bridge the domain gap from images to videos. Our qualitative analysis illustrates that the frame-level
+          processing from CLIP image-encoder followed by feature pooling and similarity matching with corresponding
+          text embeddings helps in implicitly modeling the temporal cues within ViFi-CLIP. Such fine-tuning helps the
+          model to focus on scene dynamics, moving objects and inter-object relationships. For low-data regimes where
+          full fine-tuning is not viable, we propose a ‘bridge and prompt’ approach that first uses fine-tuning to bridge
+          the domain gap and then learns prompts on language and vision side to adapt CLIP representations.</p>
       </td>
     </tr>
 
