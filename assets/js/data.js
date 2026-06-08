@@ -14,7 +14,7 @@ window.siteData = {
     "email": "mmaaz60@gmail.com",
     "image": "assets/img/profile.png",
     "imageFallback": "assets/img/profile.svg",
-    "cv": "assets/pdf/MuhammadMaaz_CV.pdf",
+    "cv": "assets/pdf/MuhammadMaaz_Jun0826_v2.pdf",
     "tagline": "Multimodal AI researcher working on video understanding, reasoning, and grounding using multimodal large language models (MLLMs).",
     "bio": "I am a Research Scientist at Meta Superintelligence Labs (MSL) working on multimodal large language models (MLLMs) for video understanding, reasoning, and grounding. I completed my Ph.D. in Computer Vision at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in May 2026, advised by <a href='https://salman-h-khan.github.io' target='_blank' rel='noopener noreferrer'>Prof. Salman Khan</a>. During my Ph.D., I received the Google PhD Fellowship in Machine Perception, the MBZUAI Graduate Research Excellence Award, and the KAUST AI Rising Star Award.",
     "interests": [
