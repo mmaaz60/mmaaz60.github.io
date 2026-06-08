@@ -393,34 +393,92 @@ h1 {
 .award-card h3 { margin: 4px 0; font-size: 1rem; }
 .award-card p { margin: 0; color: var(--muted); }
 
-.timeline-hero {
-  padding: 58px 0 20px;
+
+.timeline-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 4rem);
 }
-.timeline-hero h1 { font-size: clamp(2.2rem, 5vw, 4rem); }
+
 .timeline-wrap {
   position: relative;
   display: grid;
-  gap: 14px;
-  padding: 26px 0 52px;
-}
-.timeline-item {
-  display: grid;
-  grid-template-columns: 170px 1fr;
   gap: 18px;
-  padding: 18px;
-  position: relative;
+  padding: 30px 0 58px;
 }
+
+.timeline-wrap::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  bottom: 58px;
+  left: 50%;
+  width: 3px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, transparent, var(--accent), transparent);
+  border-radius: 999px;
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 58px minmax(0, 1fr);
+  align-items: center;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.timeline-marker {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 999px;
+  background: var(--accent);
+  border: 4px solid var(--bg);
+  box-shadow: 0 0 0 4px rgba(26, 99, 184, 0.13);
+  z-index: 1;
+}
+
+.timeline-content {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(20, 35, 70, 0.05);
+  padding: 18px;
+}
+
+.timeline-left .timeline-content {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
+}
+
+.timeline-right .timeline-content {
+  grid-column: 3;
+  grid-row: 1;
+}
+
 .timeline-date {
   color: var(--accent);
   font-weight: 900;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
 }
+
 .timeline-content h2 {
   margin: 0 0 6px;
   font-size: 1.1rem;
 }
+
 .timeline-content p {
   margin: 0 0 10px;
   color: var(--muted);
+}
+
+.timeline-left .timeline-links {
+  justify-content: flex-end;
 }
 .site-footer {
   border-top: 1px solid var(--border);
@@ -440,7 +498,29 @@ h1 {
   .hero { grid-template-columns: 1fr; padding-top: 46px; }
   .stats-grid, .awards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .two-column { grid-template-columns: 1fr; }
-  .news-item, .timeline-item { grid-template-columns: 1fr; }
+  .news-item { grid-template-columns: 1fr; }
+
+  .timeline-wrap::before {
+    left: 12px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .timeline-marker {
+    grid-column: 1;
+  }
+
+  .timeline-left .timeline-content,
+  .timeline-right .timeline-content {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .timeline-left .timeline-links {
+    justify-content: flex-start;
+  }
   .header-inner { align-items: flex-start; padding: 14px 0; }
   .site-nav { gap: 4px; }
   .site-nav a { padding: 7px 9px; font-size: 0.9rem; }

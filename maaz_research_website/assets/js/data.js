@@ -186,7 +186,18 @@ window.siteData = {
           "url": "https://github.com/mbzuai-oryx/groundingLMM"
         }
       ]
-    }
+    },
+    {
+      "date": "Jul 2022",
+      "title": "First first-author A* conference paper",
+      "text": "Class-agnostic Object Detection with Multi-modal Transformer is accepted at ECCV 2022.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2111.11430"
+        }
+      ]
+    },
   ],
   "publicationTopics": [
     "Featured",
@@ -642,18 +653,6 @@ window.siteData = {
       "links": []
     },
     {
-      "date": "Feb 2026",
-      "title": "AI Rising Star Award",
-      "text": "Recognized at the KAUST AI Rising Star Symposium for emerging research impact and contributions to AI.",
-      "links": []
-    },
-    {
-      "date": "Feb 2026",
-      "title": "Graduate Research Excellence Award",
-      "text": "Received the Graduate Research Excellence Award at MBZUAI's 5th Anniversary celebration.",
-      "links": []
-    },
-    {
       "date": "Oct 2025",
       "title": "Google PhD Fellowship",
       "text": "Awarded the Google PhD Fellowship in Machine Perception. First Google PhD Fellow from the Gulf region.",
@@ -677,32 +676,6 @@ window.siteData = {
       ]
     },
     {
-      "date": "Sep 2025",
-      "title": "Two Papers Accepted at NeurIPS 2025",
-      "text": "Perception Language Model (PLM) is accepted as a spotlight paper and Perception Encoder (PE) is accepted as an oral presentation.",
-      "links": [
-        {
-          "label": "PerceptionLM",
-          "url": "https://ai.meta.com/research/publications/perceptionlm-open-access-data-and-models-for-detailed-visual-understanding/"
-        },
-        {
-          "label": "Perception Encoder",
-          "url": "https://ai.meta.com/research/publications/perception-encoder-the-best-visual-embeddings-are-not-at-the-output-of-the-network/"
-        }
-      ]
-    },
-    {
-      "date": "Apr 2025",
-      "title": "Meta AI open-source release",
-      "text": "PerceptionLM and Perception Encoder are released by Meta AI, in an official announcement by Yan LeCun.",
-      "links": [
-        {
-          "label": "Code",
-          "url": "https://github.com/facebookresearch/perception_models"
-        }
-      ]
-    },
-    {
       "date": "Mar 2025 - Aug 2025",
       "title": "Meta internship #2",
       "text": "Rejoined Meta as a Research Scientist Intern, working on promptable image segmentation and fine-grained MLLM reasoning.",
@@ -715,38 +688,15 @@ window.siteData = {
       "links": []
     },
     {
-      "date": "Apr 2024",
-      "title": "Ph.D. candidacy",
-      "text": "Completed the research proficiency exam and advanced to Ph.D. candidacy at MBZUAI.",
-      "links": []
-    },
-    {
       "date": "Jan 2023",
-      "title": "Started Ph.D. at MBZUAI",
-      "text": "Started Ph.D. research in the Computer Vision Department at MBZUAI.",
+      "title": "Started Ph.D. in Computer Vision",
+      "text": "Started Ph.D. in the Computer Vision Department at MBZUAI.",
       "links": []
     },
     {
-      "date": "Dec 2022",
-      "title": "Completed M.Sc. at MBZUAI",
-      "text": "Defended M.Sc. thesis on class-agnostic object detection with multimodal transformers.",
-      "links": []
-    },
-    {
-      "date": "Jul 2022",
-      "title": "First first-author A* conference paper",
-      "text": "Class-agnostic Object Detection with Multi-modal Transformer is accepted at ECCV 2022.",
-      "links": [
-        {
-          "label": "Paper",
-          "url": "https://arxiv.org/abs/2111.11430"
-        }
-      ]
-    },
-    {
-      "date": "Dec 2020",
-      "title": "Started M.Sc. at MBZUAI",
-      "text": "Joined MBZUAI as an M.Sc. student in Computer Vision on a fully funded scholarship.",
+      "date": "Dec 2020 - Dec 2022",
+      "title": "M.Sc. in Computer Vision",
+      "text": "M.Sc. Thesis: Class-agnostic object detection with multimodal transformers.",
       "links": []
     },
     {
@@ -762,15 +712,9 @@ window.siteData = {
       "links": []
     },
     {
-      "date": "May 2018",
-      "title": "Completed B.Sc. at UET Lahore",
-      "text": "Completed B.Sc. in Electrical Engineering at University of Engineering and Technology Lahore.",
-      "links": []
-    },
-    {
-      "date": "Sep 2014",
-      "title": "Started Electrical Engineering at UET Lahore",
-      "text": "Started undergraduate studies in Electrical Engineering.",
+      "date": "Sep 2014 - May 2018",
+      "title": "B.Sc. in Electrical Engineering",
+      "text": "B.Sc. in Electrical Engineering at University of Engineering and Technology Lahore.",
       "links": []
     }
   ],

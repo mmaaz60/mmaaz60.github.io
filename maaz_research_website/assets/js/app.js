@@ -174,10 +174,11 @@
   }
 
   function renderTimelinePage() {
-    const items = (data.timeline || []).map(item => `
-      <article class="timeline-item">
-        <div class="timeline-date">${escapeHTML(item.date)}</div>
+    const items = (data.timeline || []).map((item, index) => `
+      <article class="timeline-item ${index % 2 === 0 ? 'timeline-left' : 'timeline-right'}">
+        <div class="timeline-marker" aria-hidden="true"></div>
         <div class="timeline-content">
+          <div class="timeline-date">${escapeHTML(item.date)}</div>
           <h2>${escapeHTML(item.title)}</h2>
           <p>${escapeHTML(item.text)}</p>
           ${renderLinks(item.links, 'timeline-links')}
