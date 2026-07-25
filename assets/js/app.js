@@ -53,7 +53,7 @@
         <aside class="profile-card" aria-label="Profile summary">
           <img class="profile-image" src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" onerror="this.onerror=null;this.src='${escapeHTML(p.imageFallback)}';">
           <h2>${escapeHTML(p.name)}</h2>
-          <p>${escapeHTML(p.affiliation)} · ${escapeHTML(p.location)}</p>
+          <p>${escapeHTML(p.affiliation)}</p>
           <ul class="interest-list">${interests}</ul>
         </aside>
       </section>`;

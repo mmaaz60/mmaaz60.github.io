@@ -9,17 +9,17 @@ window.siteData = {
     "name": "Muhammad Maaz",
     "shortName": "Maaz",
     "title": "Research Scientist",
-    "affiliation": "Meta",
+    "affiliation": "Meta - FAIR",
     "location": "Abu Dhabi, UAE (Remote)",
     "email": "mmaaz60@gmail.com",
     "image": "assets/img/profile.png",
     "imageFallback": "assets/img/profile.svg",
     "cv": "assets/pdf/MuhammadMaaz_Jun0826_v2.pdf",
-    "tagline": "Multimodal AI researcher working on video understanding, reasoning, and grounding using multimodal large language models (MLLMs).",
-    "bio": "I am a Research Scientist at Meta Superintelligence Labs (MSL) working on multimodal large language models (MLLMs) for video understanding, reasoning, and grounding. I completed my Ph.D. in Computer Vision at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in May 2026, advised by <a href='https://salman-h-khan.github.io' target='_blank' rel='noopener noreferrer'>Prof. Salman Khan</a>. During my Ph.D., I received the Google PhD Fellowship in Machine Perception, the MBZUAI Graduate Research Excellence Award, and the KAUST AI Rising Star Award.",
+    "tagline": "Multimodal AI researcher working on understanding, reasoning, and grounding using multimodal large language models (MLLMs).",
+    "bio": "I am a Research Scientist at Meta Fundamental AI Research (FAIR) working on MLLMs for understanding, reasoning, and grounding. I completed my Ph.D. in Computer Vision at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) in May 2026, advised by <a href='https://salman-h-khan.github.io' target='_blank' rel='noopener noreferrer'>Prof. Salman Khan</a>. During my Ph.D., I received the Google PhD Fellowship in Machine Perception, the MBZUAI Graduate Research Excellence Award, and the KAUST AI Rising Star Award.",
     "interests": [
       "Multimodal Large Language Models",
-      "Multimodal Understanding & Reasoning",
+      // "Multimodal Understanding & Reasoning",
       "Grounded Visual Reasoning",
     ],
     "links": [
@@ -45,7 +45,7 @@ window.siteData = {
     {
       "date": "Jun 2026",
       "title": "Started as a Research Scientist at Meta",
-      "text": "I will be working with SAM team, under Meta Superintelligence Labs (MSL).",
+      "text": "I will be working with the SAM team, under Fundamental AI Research (FAIR).",
       "links": []
     },
     {
@@ -107,7 +107,7 @@ window.siteData = {
     {
       "date": "Sep 2025",
       "title": "PerceptionLM at NeurIPS 2025 (Spotlight)",
-      "text": "PerceptionLM is accepted to NeurIPS 2025 as a spotlight paper.",
+      "text": "PerceptionLM was accepted to NeurIPS 2025 as a spotlight paper.",
       "links": [
         {
           "label": "Paper",
@@ -190,7 +190,7 @@ window.siteData = {
     {
       "date": "Jul 2022",
       "title": "First first-author A* conference paper",
-      "text": "Class-agnostic Object Detection with Multi-modal Transformer is accepted at ECCV 2022.",
+      "text": "Class-agnostic Object Detection with Multi-modal Transformer was accepted at ECCV 2022.",
       "links": [
         {
           "label": "Paper",
@@ -406,7 +406,7 @@ window.siteData = {
         "Benchmarks"
       ],
       "authors": "Hanoona Rasheed, Muhammad Maaz, Abdelrahman Shaker, Salman Khan, Hisham Cholakkal, Rao M. Anwer, Tim Baldwin, Michael Felsberg, Fahad Khan",
-      "summary": "PALO is the first mutlilingual Large Multimodal Model that offers visual reasoning capabilities in 10 major languages, including English, Chinese, Hindi, Spanish, French, Arabic, Bengali, Russian, Urdu, and Japanese, that span a total of ~5B people (65% of the world population). Our approach involves a semi-automated translation approach to adapt the multimodal instruction dataset from English to the target languages using a fine-tuned Large Language Model. We train models across three distinct scales i.e., 1.7B, 7B, and 13B parameters to demonstrate the scalability of our training pipeline. The models demonstrate good performance on low-resource languages, e.g., Hindi, Arabic, Bengali, and Urdu, without compromising its high-performance on high-resource languages e.g., English, Chinese, French, and Spanish.",
+      "summary": "PALO is the first multilingual Large Multimodal Model that offers visual reasoning capabilities in 10 major languages, including English, Chinese, Hindi, Spanish, French, Arabic, Bengali, Russian, Urdu, and Japanese, that span a total of ~5B people (65% of the world population). Our approach involves a semi-automated translation approach to adapt the multimodal instruction dataset from English to the target languages using a fine-tuned Large Language Model. We train models across three distinct scales i.e., 1.7B, 7B, and 13B parameters to demonstrate the scalability of our training pipeline. The models demonstrate good performance on low-resource languages, e.g., Hindi, Arabic, Bengali, and Urdu, without compromising its high-performance on high-resource languages e.g., English, Chinese, French, and Spanish.",
       "badges": [
         "Multilingual MLLM",
         "10 Languages covering 5B People (65% of World Population)",
@@ -643,7 +643,7 @@ window.siteData = {
     {
       "date": "Jun 2026",
       "title": "Research Scientist at Meta",
-      "text": "Started as a Research Scientist at Meta Superintelligence Labs (MSL). I will be working with SAM team.",
+      "text": "Started as a Research Scientist at Fundamental AI Research (FAIR). I will be working with the SAM team.",
       "links": []
     },
     {
