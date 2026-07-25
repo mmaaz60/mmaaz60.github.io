@@ -8,8 +8,8 @@ window.siteData = {
   "profile": {
     "name": "Muhammad Maaz",
     "shortName": "Maaz",
-    "title": "Research Scientist",
-    "affiliation": "Meta - FAIR",
+    // "title": "Research Scientist",
+    "affiliation": "Research Scientist @ Meta - FAIR",
     "location": "Abu Dhabi, UAE (Remote)",
     "email": "mmaaz60@gmail.com",
     "image": "assets/img/profile.png",
