@@ -20,7 +20,7 @@ Common edits:
 - Update the timeline: add or edit an object in `timeline`.
 - Update profile links: edit `profile.links`.
 - Update research interests: edit `profile.interests`.
-- Update the CV: replace `assets/pdf/MuhammadMaaz_CV.pdf` with a newer file.
+- Update the CV: replace `assets/pdf/MuhammadMaazCV_Jul2526.pdf` with a newer file.
 
 ## Replace the photo
 

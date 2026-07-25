@@ -189,7 +189,7 @@
         <p class="eyebrow">Career and research milestones</p>
         <h1>Timeline</h1>
         <p class="lead">A concise chronology of research, education, awards, and professional milestones.</p>
-        <div class="hero-links"><a class="button-link" href="index.html">Back to home</a><a class="button-link primary" href="assets/pdf/MuhammadMaaz_CV.pdf">Download CV</a></div>
+        <div class="hero-links"><a class="button-link" href="index.html">Back to home</a><a class="button-link primary" href="assets/pdf/MuhammadMaazCV_Jul2526.pdf">Download CV</a></div>
       </section>
       <section class="container timeline-wrap">${items}</section>`;
   }
